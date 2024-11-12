@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-06-08 15:44:03.840208 by runner.py v1_4_0+0122-4a4c23555b
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <person id="ped0" depart="0.00" departPos="random">
+        <walk from="W2TL" to="TL2N" arrivalPos="random"/>
+    </person>
+     <person id="ped1" depart="0.00" departPos="random">
+        <walk from="E0" to="-E1" arrivalPos="random"/>
+    </person>
+    <person id="ped2" depart="0.00" departPos="random">
+        <walk from="W2TL" to="TL2W" arrivalPos="random"/>
+    </person>
+     <person id="ped3" depart="0.00" departPos="random">
+        <walk from="E0" to="-E1" arrivalPos="random"/>
+    </person>
+    <person id="ped4" depart="1.00" departPos="random">
+        <walk from="W2TL" to="TL2W" arrivalPos="random"/>
+    </person>
+    <person id="ped5" depart="2.00" departPos="random">
+        <walk from="W2TL" to="TL2W" arrivalPos="random"/>
+    </person>
+    <person id="ped6" depart="6.00" departPos="random">
+        <walk from="TL2W" to="W2TL" arrivalPos="random"/>
+    </person>
+    <person id="ped7" depart="10.00" departPos="random">
+        <walk from="TL2W" to="W2TL" arrivalPos="random"/>
+    </person>
+    <person id="ped8" depart="15.00" departPos="random">
+        <walk from="TL2W" to="W2TL" arrivalPos="random"/>
+    </person>
+    <person id="ped9" depart="15.00" departPos="random">
+        <walk from="TL2W" to="W2TL" arrivalPos="random"/>
+    </person>
+    <person id="ped10" depart="16.00" departPos="random">
+        <walk from="E0" to="E1" arrivalPos="random"/>
+    </person>
+    <person id="ped11" depart="20.00" departPos="random">
+        <walk from="E0" to="E1" arrivalPos="random"/>
+    </person>
+    <person id="ped12" depart="26.00" departPos="random">
+        <walk from="E1" to="-E1" arrivalPos="random"/>
+    </person>
+    <person id="ped13" depart="30.00" departPos="random">
+        <walk from="E1" to="-E1" arrivalPos="random"/>
+    </person>
+    <person id="ped14" depart="35.00" departPos="random">
+        <walk from="-E1" to="E1" arrivalPos="random"/>
+    </person>
+    <person id="ped15" depart="15.00" departPos="random">
+        <walk from="-E1" to="E1" arrivalPos="random"/>
+    </person>
+</routes>
